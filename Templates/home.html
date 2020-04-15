@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% if title %}
+        <title> Learning Flask - {{ title }}</title>
+    {% else %}
+        <title> Learning Flask</title>
+    {% endif %}
+</head>
+<body>
+    {% for post in posts %}
+        <h1>{{ post.Title }}</h1>
+        <p>By {{ post.Author }} on {{ post.Date }}</p>
+        <p>{{ post.Content }}</p>
+    {% endfor %}
+</body>
+</html>
