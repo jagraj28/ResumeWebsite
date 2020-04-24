@@ -1,2 +1,2 @@
 # ResumeWebsite
-Creating a single page resume website using Flask.
+Creating a single page resume website using Django.
